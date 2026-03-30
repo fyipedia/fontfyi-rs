@@ -1,0 +1,22 @@
+[package]
+name = "fontfyi"
+version = "0.1.0"
+edition = "2021"
+authors = ["FYIPedia"]
+description = "Google Fonts metadata, CSS generation, and font pairing — async API client for fontfyi.com."
+license = "MIT"
+repository = "https://github.com/fyipedia/fontfyi-rs"
+homepage = "https://fontfyi.com"
+documentation = "https://docs.rs/fontfyi"
+readme = "README.md"
+keywords = ["font", "google-fonts", "typography", "css", "pairing"]
+categories = ["api-bindings", "data-structures"]
+
+exclude = ["target/", "demo.gif", "demo.tape"]
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+tokio = { version = "1", features = ["full"] }
