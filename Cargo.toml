@@ -1,6 +1,6 @@
 [package]
 name = "fontfyi"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["FYIPedia"]
 description = "Google Fonts metadata, CSS generation, and font pairing — async API client for fontfyi.com."
